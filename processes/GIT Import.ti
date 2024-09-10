@@ -1,13 +1,16 @@
 #region Prolog
 
-vGitCube = '}GitCubes';
-IF ( CubeExists( vGitCube ) = 0 );
-    CubeCreate( vGitCube, '}Cubes', '}GitControl' );
+IF ( DimensionExists( '}GitControl' ) = 0 );
+    DimensionCreate( '}GitControl' );
+    DimensionElementInsertDirect( '}GitControl', '', 'Push', 'S' );
 ENDIF;
 
-vGitDimension = '}GitDimensions';
-IF ( CubeExists( vGitDimension ) = 0 );
-    CubeCreate( vGitDimension, '}Dimensions', '}GitControl' );
+IF ( CubeExists( '}GitCubes' ) = 0 );
+    CubeCreate( '}GitCubes', '}Cubes', '}GitControl' );
+ENDIF;
+
+IF ( CubeExists( '}GitDimensions' ) = 0 );
+    CubeCreate( '}GitDimensions', '}Dimensions', '}GitControl' );
 ENDIF;
 
 vAttributeExportFile = '/git/attributes/';
@@ -29,6 +32,6 @@ End;
 #endregion
 #region Epilog
 
-#ExecuteProcess( 'Delete directory', 'pDeleteDir', '/git' );
+ExecuteProcess ( 'Delete directory', 'pDeleteDir', '/git' );
 
 #endregion
