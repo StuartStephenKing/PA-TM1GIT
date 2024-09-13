@@ -32,6 +32,6 @@ End;
 #endregion
 #region Epilog
 
-ExecuteProcess ( 'Delete directory', 'pDeleteDir', '/git' );
+ExecuteProcess ( 'GIT Delete Directory', 'pDeleteDir', '/git' );
 
 #endregion
