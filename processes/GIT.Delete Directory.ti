@@ -3,14 +3,14 @@
 vDir = pDeleteDir;
 vFile = WildcardFileSearch ( vDir |'/*', '' );
 vLastFile = vFile;
-While( vFile @<> '');
-    ASCIIDelete( vDir | '/' | vFile );
+WHILE ( vFile @<> '' );
+    ASCIIDelete ( vDir | '/' | vFile );
     vFile = WildcardFileSearch (  vDir |'/*', '' );
     IF (vLastFile @= vFile);
-        ExecuteProcess( 'Delete directory', 'pDeleteDir', vDir | '/' | vFile );
+        ExecuteProcess ( 'GIT.Delete Directory', 'pDeleteDir', vDir | '/' | vFile );
     ENDIF;
     vLastFile = vFile;
-End;
-ASCIIDelete( vDir );
+END;
+ASCIIDelete ( vDir );
 
 #endregion

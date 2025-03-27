@@ -1,15 +1,15 @@
 {
 	"@type":"Process",
-	"Name":"GIT Import",
+	"Name":"GIT.Import",
 	"HasSecurityAccess":false,
-	"Code@Code.link":"GIT Import.ti",
+	"Code@Code.link":"GIT.Import.ti",
 	"DataSource":
 	{
 		"Type":"None"
 	},
 	"Parameters":[],
 	"Variables":[],
-	"UID": "171776987100051",
+	"UID": "174195615300013",
 	"VariablesUIData": [],
 	"UIData": "_ParameterConstraints=e30=\f"
 }

@@ -1,8 +1,8 @@
 {
 	"@type":"Process",
-	"Name":"GIT Delete Directory",
+	"Name":"GIT.Delete Directory",
 	"HasSecurityAccess":false,
-	"Code@Code.link":"GIT Delete Directory.ti",
+	"Code@Code.link":"GIT.Delete Directory.ti",
 	"DataSource":
 	{
 		"Type":"None"
@@ -17,7 +17,7 @@
 		}
 	],
 	"Variables":[],
-	"UID": "1726233676000",
+	"UID": "17419561530007",
 	"VariablesUIData": [],
 	"UIData": "_ParameterConstraints=e30=\f"
 }

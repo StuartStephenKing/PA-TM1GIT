@@ -1,8 +1,8 @@
 {
 	"@type":"Process",
-	"Name":"GIT Export Attributes",
+	"Name":"GIT.Export Attributes",
 	"HasSecurityAccess":false,
-	"Code@Code.link":"GIT Export Attributes.ti",
+	"Code@Code.link":"GIT.Export Attributes.ti",
 	"DataSource":
 	{
 		"Type":"TM1CubeView",
@@ -49,11 +49,5 @@
 			"EndByte":0
 		}
 	],
-	"UID": "171776987100046",
-	"VariablesUIData": [
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f"
-	],
-	"UIData": "_ParameterConstraints=e30=\f"
+	"UID": "17419561530008"
 }

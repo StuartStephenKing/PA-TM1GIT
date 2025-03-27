@@ -1,8 +1,8 @@
 {
 	"@type":"Process",
-	"Name":"GIT Import Attributes",
+	"Name":"GIT.Import Attributes",
 	"HasSecurityAccess":false,
-	"Code@Code.link":"GIT Import Attributes.ti",
+	"Code@Code.link":"GIT.Import Attributes.ti",
 	"DataSource":
 	{
 		"Type":"ASCII",
@@ -61,12 +61,5 @@
 			"EndByte":0
 		}
 	],
-	"UID": "171776987100049",
-	"VariablesUIData": [
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f"
-	],
-	"UIData": "_ParameterConstraints=e30=\f"
+	"UID": "174195615300011"
 }

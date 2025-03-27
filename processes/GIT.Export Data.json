@@ -1,8 +1,8 @@
 {
 	"@type":"Process",
-	"Name":"GIT Export Data",
+	"Name":"GIT.Export Data",
 	"HasSecurityAccess":false,
-	"Code@Code.link":"GIT Export Data.ti",
+	"Code@Code.link":"GIT.Export Data.ti",
 	"DataSource":
 	{
 		"Type":"TM1CubeView",
@@ -119,21 +119,5 @@
 			"EndByte":0
 		}
 	],
-	"UID": "171776987100047",
-	"VariablesUIData": [
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f"
-	],
-	"UIData": "_ParameterConstraints=e30=\f"
+	"UID": "17419561530009"
 }

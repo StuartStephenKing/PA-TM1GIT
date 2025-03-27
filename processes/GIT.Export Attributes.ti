@@ -1,12 +1,8 @@
 #region Prolog
-
 vCube = '}ElementAttributes_' | pDimension;
-
 IF ( CubeExists( vCube ) = 0 );
     ProcessBreak;
 endif;
-
-
 
 vView = '}git';
 vExportFile     = pDir | pDimension | '.csv';

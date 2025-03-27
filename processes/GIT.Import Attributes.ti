@@ -1,10 +1,7 @@
 #region Prolog
-
 vDimLastCharacter = SCAN ( '.csv', pFile ) - 1;
 vDimension = SUBST ( pFile, 1, vDimLastCharacter );
-
 vAttributesDimension = '}ElementAttributes_' | vDimension;
-
 DataSourceType          = 'CHARACTERDELIMITED';
 DatasourceNameForServer = pDir | pFile;
 

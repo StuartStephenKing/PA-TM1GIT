@@ -1,13 +1,13 @@
 {
 	"@type":"Cube",
-	"Name":"}GitCubes",
+	"Name":"Git Cubes",
 	"Dimensions":
 	[
 		{
 			"@id":"Dimensions('}Cubes')"
 		},
 		{
-			"@id":"Dimensions('}GitControl')"
+			"@id":"Dimensions('Git Control')"
 		}
 	],
 	"Views@Code.links":[]

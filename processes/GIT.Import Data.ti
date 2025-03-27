@@ -1,7 +1,6 @@
 #region Prolog
 vDimLastCharacter = SCAN ( '.csv', pFile ) - 1;
 vCube             = SUBST ( pFile, 1, vDimLastCharacter );
-
 vLastDimIndex = CubeDimensionCountGet( vCube );
 vLastDim      = TABDIM( vCube, vLastDimIndex );
 

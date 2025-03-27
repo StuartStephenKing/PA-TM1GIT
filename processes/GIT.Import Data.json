@@ -1,8 +1,8 @@
 {
 	"@type":"Process",
-	"Name":"GIT Import Data",
+	"Name":"GIT.Import Data",
 	"HasSecurityAccess":true,
-	"Code@Code.link":"GIT Import Data.ti",
+	"Code@Code.link":"GIT.Import Data.ti",
 	"DataSource":
 	{
 		"Type":"ASCII",
@@ -152,25 +152,5 @@
 			"EndByte":0
 		}
 	],
-	"UID": "171776987100050",
-	"VariablesUIData": [
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f",
-		"VarType=32\fColType=827\f"
-	],
-	"UIData": "_ParameterConstraints=e30=\f"
+	"UID": "174195615300012"
 }
